@@ -1,13 +1,16 @@
 import React from "react";
 import "./App.css";
-import BaseLayout from "./components/BaseLayout";
 import Home from "./pages/Home";
+import Footer from "./components/Footer";
+import Topbar from "./components/Topbar";
 
 function App() {
   return (
-    <BaseLayout>
-    <Home />
-    </BaseLayout>
+    <React.Fragment>
+      <Topbar />
+      <Home />
+      <Footer />
+    </React.Fragment>
   );
 }
 
