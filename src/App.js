@@ -1,14 +1,16 @@
 import React from "react";
 import "./App.css";
-import Home from "./pages/Home";
 import Footer from "./components/Footer";
 import Topbar from "./components/Topbar";
+import PrimeiroConteudo from "./pages/Home/PrimeiroConteudo";
+import SegundoConteudo from "./pages/Home/SegundoConteudo";
 
 function App() {
   return (
     <React.Fragment>
       <Topbar />
-      <Home />
+      <PrimeiroConteudo />
+      <SegundoConteudo />
       <Footer />
     </React.Fragment>
   );

@@ -5,6 +5,7 @@ import Logo from '../../assets/img/logo.png'
 function Topbar() {
     return (
         <div className="Topbar">
+            <section id="teste"></section>
             <img className="LogoImage" src={Logo} alt="Logo"></img>
             <p className="LogoName">SUPERGIANTGAMES</p>
         </div>

@@ -1,11 +1,11 @@
 import React from "react";
-import "./home.css";
-import ImagemFundoPrincipal from "../../assets/img/fundo-principal.png";
-import CardPrincipal from '../../assets/img/card-principal.png'
-import PrimeiraPenaE from '../../assets/img/primeira-pena-e.png'
-import SegundaPenaE from '../../assets/img/segunda-pena-e.png'
-import PrimeiraPenaD from '../../assets/img/primeira-pena-d.png'
-import SegundaPenaD from '../../assets/img/segunda-pena-d.png'
+import "./home-primeiro.css";
+import ImagemFundoPrincipal from "../../../assets/img/fundo-principal.png";
+import CardPrincipal from '../../../assets/img/card-principal.png'
+import PrimeiraPenaE from '../../../assets/img/primeira-pena-e.png'
+import SegundaPenaE from '../../../assets/img/segunda-pena-e.png'
+import PrimeiraPenaD from '../../../assets/img/primeira-pena-d.png'
+import SegundaPenaD from '../../../assets/img/segunda-pena-d.png'
 
 function Home() {
   return (
@@ -22,6 +22,12 @@ function Home() {
       <p className="TxtSuperior">TRANSISTOR - RED THE SINGER</p>
 
       <p className="TxtInferior">"Olha, o que quer que você esteja pensando, me faça um favor, não solte."</p>
+      <a href="#cards">
+          <button className="Mouse">
+            <div className="MouseScroll"></div>
+          </button>
+          <p className="MouseTracinho">\/</p>
+      </a>
     </div>
   );
 }
