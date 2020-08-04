@@ -1,6 +1,7 @@
 import React from "react";
 import "./home-terceiro.css";
 
+
 function TerceiroConteudo() {
   return (
     <div className="TerceiraDivPrincipal">
@@ -18,6 +19,7 @@ function TerceiroConteudo() {
             name="nome"
             placeholder="Nome"
             type="text"
+            
           ></input>
           <input
             className="FormCampo"
@@ -34,7 +36,7 @@ function TerceiroConteudo() {
             type="text"
           ></input>
         </div>
-        <button className="FormEnviar" onClick="">ENVIAR</button>
+        <button className="FormEnviar">ENVIAR</button>
       </form>
     </div>
   );

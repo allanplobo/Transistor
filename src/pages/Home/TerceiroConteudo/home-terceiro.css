@@ -1,70 +1,113 @@
-.TerceiraDivPrincipal {
-    width: 100%;
-    height: 430px;
-    background-image: linear-gradient(90deg, #7DEDE2, #58B790);
-    position: relative;
-}
-
-.Form {
-    width: 780px;
-    height: 520px;
-    border-radius: 10px;
-    background-color: white;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    text-align: center;
-}
-
-.DivPrimeirosInputs {
-    margin-top: 30px;
-    width: 100%;
-}
-
-.FormTxt {
-    font-size: 20px;
-    color: #63C7A9;
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 50px;
-}
-
-.FormSegundoTxt {
-    width: 520px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    font-weight: lighter;
-    line-height: 16px;
-    margin: auto;
-    margin-top: 25px;
-}
-
-.FormCampo {
-    width: 160px;
-    height: 30px;
-    margin-right: 20px;
-}
-
-.FormCampoMsg {
-    width: 350px;
-    height: 150px;
-    margin-right: 20px;
-    margin-top: 25px;
-}
-
-.FormEnviar {
-    cursor: pointer;
-    outline: none;
-    float: left;
-    margin-left: 212px;
-    margin-top: 25px;
-    width: 165px;
-    height: 30px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 11px;
-    color: white;
-    background-color: #63C7A9;
-    border: none;
-}
+        .TerceiraDivPrincipal {
+            width: 100%;
+            height: 430px;
+            background-image: linear-gradient(90deg, #7DEDE2, #58B790);
+            position: relative;
+        }
+        
+        .Form {
+            width: 780px;
+            height: 520px;
+            border-radius: 10px;
+            background-color: white;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            text-align: center;
+        }
+        
+        .DivPrimeirosInputs {
+            margin-top: 30px;
+            width: 100%;
+        }
+        
+        .FormTxt {
+            font-size: 20px;
+            color: #63C7A9;
+            font-family: 'Montserrat', sans-serif;
+            margin-top: 50px;
+        }
+        
+        .FormSegundoTxt {
+            width: 520px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            font-weight: lighter;
+            line-height: 16px;
+            margin: auto;
+            margin-top: 25px;
+        }
+        
+        .FormCampo {
+            width: 160px;
+            height: 30px;
+            margin-right: 20px;
+        }
+        
+        .FormCampoMsg {
+            width: 350px;
+            height: 150px;
+            margin-right: 20px;
+            margin-top: 25px;
+        }
+        
+        .FormEnviar {
+            cursor: pointer;
+            outline: none;
+            float: left;
+            margin-left: 212px;
+            margin-top: 25px;
+            width: 165px;
+            height: 30px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 11px;
+            color: white;
+            background-color: #63C7A9;
+            border: none;
+            transition: 0.5s;
+        }
+        
+        .FormEnviar:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.041);
+            transition: all .0.2s;
+        }
+        
+        .FormEnviar:before {
+            background-color: #2a75cf;
+        }
+        
+        .FormEnviar::after {
+            content: "";
+            display: inline-block;
+            height: 100%;
+            width: 100%;
+            border-radius: 100px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            transition: all .0.2s;
+        }
+        
+        @media only screen and (max-width: 500px) {
+            .Form {
+                width: 380px;
+            }
+            .FormSegundoTxt {
+                width: 300px;
+            }
+            .DivPrimeirosInputs {
+                margin-left: 10px;
+            }
+            .FormCampoMsg {
+                margin-left: 20px;
+                width: 300px;
+            }
+            .FormEnviar {
+                margin-left: 100px;
+            }
+        }

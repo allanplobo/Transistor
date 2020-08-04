@@ -171,8 +171,8 @@
     right: 0;
     bottom: 0;
     margin: auto;
-    margin-bottom: -78px;
-    margin-right: 650.5px;
+    margin-bottom: -80px;
+    margin-right: -13px;
 }
 
 @media only screen and (max-width: 500px) {

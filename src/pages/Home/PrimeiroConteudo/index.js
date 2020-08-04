@@ -58,9 +58,11 @@ function Home() {
       </p>
       <a href="#teste">
         <button className="Mouse">
-          <div className="MouseScroll"></div>
+          <div className="MouseScroll">
+          <p className="MouseTracinho">\/</p>
+          </div>
         </button>
-        <p className="MouseTracinho">\/</p>
+
       </a>
     </div>
   );
