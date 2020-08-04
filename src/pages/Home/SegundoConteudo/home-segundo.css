@@ -28,29 +28,34 @@
 }
 
 .Cards {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
     margin: auto;
     margin-top: -55px;
     border: solid 2px white;
     border-radius: 50px;
     background-color: #363636;
     width: 215px;
-    height: 250px;
+    height: 260px;
 }
 
 .CardImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    margin-bottom: 206px;
     width: 230px;
-    height: 290px;
+    height: 310px;
 }
 
 .CardTxt {
+    width: 200px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
+    font-size: 12.5px;
     line-height: 14px;
+    margin: auto;
+    margin-top: 20px;
 }
 
 .LeftArrowCards {
