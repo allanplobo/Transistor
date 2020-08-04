@@ -22,7 +22,7 @@ function Home() {
       <p className="TxtSuperior">TRANSISTOR - RED THE SINGER</p>
 
       <p className="TxtInferior">"Olha, o que quer que você esteja pensando, me faça um favor, não solte."</p>
-      <a href="#cards">
+      <a href="#teste">
           <button className="Mouse">
             <div className="MouseScroll"></div>
           </button>
