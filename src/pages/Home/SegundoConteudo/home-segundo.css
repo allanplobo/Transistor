@@ -98,7 +98,7 @@
         position: relative;
         margin: auto;
         width: 80%;
-        margin-left: 150px;
+        margin-left: 120px;
     }
     
     .slick-slide.slick-center img {
@@ -114,7 +114,7 @@
     /* RESPONSIVE */
     /* TABLET */
     
-    @media only screen and (max-width: 900px) {
+    @media only screen and (max-width: 800px) {
         .CardImage {
             margin-bottom: -5px;
             margin-right: -22px;
@@ -124,7 +124,7 @@
         .DivCardCentral {
             width: 240px;
             height: 380px;
-            margin-left: 70px;
+            margin-left: 75px;
             margin-right: 70px;
             margin-top: 120px;
         }
@@ -137,25 +137,17 @@
             left: -13%;
         }
         .RightArrow {
-            right: -13%;
+            right: -8%;
         }
         .slides {
             position: relative;
             margin: auto;
-            margin-left: 0px;
-            width: 46%;
-            margin: auto;
+            width: 50%;
         }
     }
-    /* SMARTPHONE */
+    /* TABLET PAISAGEM */
     
-    @media only screen and (max-width: 600px) {
-        .slides {
-            position: relative;
-            margin: auto;
-            width: 80%;
-            margin-left: 150px;
-        }
+    @media only screen and (max-width: 1024px) and (max-height: 800px) {
         .CardImage {
             margin-bottom: -5px;
             margin-right: -22px;
@@ -166,6 +158,44 @@
             width: 240px;
             height: 380px;
             margin-left: 70px;
+            margin-right: 150px;
+            margin-top: 120px;
+        }
+        .Cards {
+            margin-top: -60px;
+            width: 220px;
+            height: 260px;
+        }
+        .LeftArrow {
+            left: -13%;
+        }
+        .RightArrow {
+            right: -12%;
+        }
+        .slides {
+            position: relative;
+            margin: auto;
+            width: 35%;
+        }
+    }
+    /* SMARTPHONE */
+    
+    @media only screen and (max-width: 600px) {
+        .slides {
+            position: relative;
+            width: 100%;
+            margin-left: 160px;
+        }
+        .CardImage {
+            margin-bottom: -5px;
+            margin-right: -20px;
+            width: 250px;
+            height: 320px;
+        }
+        .DivCardCentral {
+            width: 240px;
+            height: 380px;
+            margin-left: 85px;
             margin-right: 70px;
             margin-top: 120px;
         }
@@ -178,7 +208,7 @@
             left: 5%;
         }
         .RightArrow {
-            right: -13%;
+            right: 10%;
         }
         .slides {
             position: relative;

@@ -27,7 +27,7 @@ class TerceiroConteudo extends React.Component {
   }
 
   nomeChange = (e) => {
-    if (e.target.value.length >= 6) {
+    if (e.target.value.length >= 3) {
       this.setState({
         nome: true,
       });
@@ -41,7 +41,7 @@ class TerceiroConteudo extends React.Component {
   };
 
   MensagemChange = (e) => {
-    if (e.target.value.length >= 6) {
+    if (e.target.value.length >= 4) {
       this.setState({
         mensagem: true
       });
@@ -76,7 +76,7 @@ class TerceiroConteudo extends React.Component {
   };
 
   enviarForm(e) {
-    Swal("Enviado com sucesso! =)", "Peço que aguarde o retorno. Ah, também verifique sua caixa de SPAM!");
+    Swal("Enviado com sucesso!", "Agora é aguardar que já retornamos!. Ah, também verifique sua caixa de SPAM, pode ser que chegue por lá. =)", "success");
   }
 
   submitForm(e) {
