@@ -1,39 +1,33 @@
     .SegundaDivPrincipal {
         background-color: #363636;
         width: 100%;
-        height: 800px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .DivCards {
-        position: relative;
-        background-color: white;
-        width: 240px;
-        height: 420px;
-        margin-top: 100px;
-        border-radius: 30px;
+        height: 700px;
+        padding-top: 120px;
     }
     
     .DivCardCentral {
         position: relative;
         background-color: white;
-        width: 240px;
-        height: 420px;
-        margin-left: 80px;
-        margin-right: 80px;
-        margin-top: 100px;
+        width: 250px;
+        height: 380px;
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-top: 130px;
         border-radius: 30px;
     }
     
     .Cards {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
         margin: auto;
-        margin-top: -55px;
+        margin-top: -60px;
         border: solid 2px white;
         border-radius: 50px;
         background-color: #363636;
-        width: 215px;
+        width: 220px;
         height: 260px;
     }
     
@@ -44,48 +38,151 @@
         right: 0;
         bottom: 0;
         margin: auto;
-        margin-bottom: 206px;
-        width: 230px;
-        height: 310px;
+        margin-bottom: -5px;
+        margin-right: -15px;
+        width: 245px;
+        height: 320px;
     }
     
     .CardTxt {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
         width: 200px;
         font-family: 'Open Sans', sans-serif;
         font-size: 12.5px;
         line-height: 14px;
         margin: auto;
-        margin-top: 20px;
+        margin-top: 225px;
     }
     
-    .LeftArrowCards {
+    .RightArrow {
         cursor: pointer;
-        color: white;
-        font-size: 65px;
-        font-family: 'Courier New', Courier, monospace;
-        margin-right: 80px;
-    }
-    
-    .RightArrowCards {
-        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        right: -5%;
+        z-index: 1;
+        width: 20px;
+        height: 20px;
         color: white;
         font-size: 65px;
         font-family: 'Courier New', Courier, monospace;
         margin-left: 80px;
     }
     
-    @media only screen and (max-width: 800px) {
-        .DivCards {
-            display: none;
+    .LeftArrow {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        left: -7%;
+        z-index: 1;
+        width: 20px;
+        height: 20px;
+        color: white;
+        font-size: 65px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    /* SLIDER */
+    
+    slides .slick-prev,
+    .slides .slick-next {
+        position: absolute;
+        top: 50%;
+        z-index: 1;
+        color: white;
+    }
+    
+    .slides {
+        position: relative;
+        margin: auto;
+        width: 80%;
+        margin-left: 150px;
+    }
+    
+    .slick-slide.slick-center img {
+        transform: scale(1.1);
+    }
+    
+    .slides .slick-prev,
+    .slides .slick-next {
+        position: absolute;
+        top: 50%;
+        z-index: 1;
+    }
+    /* RESPONSIVE */
+    /* TABLET */
+    
+    @media only screen and (max-width: 900px) {
+        .CardImage {
+            margin-bottom: -5px;
+            margin-right: -22px;
+            width: 250px;
+            height: 320px;
         }
         .DivCardCentral {
-            margin-left: 10px;
-            margin-right: 10px;
+            width: 240px;
+            height: 380px;
+            margin-left: 70px;
+            margin-right: 70px;
+            margin-top: 120px;
         }
-        .LeftArrowCards {
-            margin: 0;
+        .Cards {
+            margin-top: -60px;
+            width: 220px;
+            height: 260px;
         }
-        .RightArrowCards {
-            margin: 0;
+        .LeftArrow {
+            left: -13%;
+        }
+        .RightArrow {
+            right: -13%;
+        }
+        .slides {
+            position: relative;
+            margin: auto;
+            margin-left: 0px;
+            width: 46%;
+            margin: auto;
+        }
+    }
+    /* SMARTPHONE */
+    
+    @media only screen and (max-width: 600px) {
+        .slides {
+            position: relative;
+            margin: auto;
+            width: 80%;
+            margin-left: 150px;
+        }
+        .CardImage {
+            margin-bottom: -5px;
+            margin-right: -22px;
+            width: 250px;
+            height: 320px;
+        }
+        .DivCardCentral {
+            width: 240px;
+            height: 380px;
+            margin-left: 70px;
+            margin-right: 70px;
+            margin-top: 120px;
+        }
+        .Cards {
+            margin-top: -60px;
+            width: 220px;
+            height: 260px;
+        }
+        .LeftArrow {
+            left: 5%;
+        }
+        .RightArrow {
+            right: -13%;
+        }
+        .slides {
+            position: relative;
+            margin: auto;
+            margin-left: 0px;
         }
     }

@@ -27,7 +27,7 @@ class TerceiroConteudo extends React.Component {
   }
 
   nomeChange = (e) => {
-    if (e.target.value.length >= 1) {
+    if (e.target.value.length >= 6) {
       this.setState({
         nome: true,
       });
@@ -41,7 +41,7 @@ class TerceiroConteudo extends React.Component {
   };
 
   MensagemChange = (e) => {
-    if (e.target.value.length >= 1) {
+    if (e.target.value.length >= 6) {
       this.setState({
         mensagem: true
       });

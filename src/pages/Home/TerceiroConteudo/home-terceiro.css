@@ -76,7 +76,37 @@
             cursor: default;
         }
         
-        @media only screen and (max-width: 500px) {
+        @media only screen and (max-width: 800px) {
+            .Form {
+                width: 600px;
+            }
+            .FormSegundoTxt {
+                width: 390px;
+            }
+            .DivPrimeirosInputs {
+                margin: auto;
+                margin-top: 20px;
+                width: 200px;
+            }
+            .FormCampo {
+                text-align: center;
+                margin-left: -15px;
+                margin-bottom: 20px;
+                width: 220px;
+            }
+            .FormCampoMsg {
+                text-align: center;
+                margin-left: 17px;
+                margin-top: 0;
+                width: 300px;
+            }
+            .FormEnviar {
+                margin-left: 210px;
+                margin-top: 10px;
+            }
+        }
+        
+        @media only screen and (max-width: 600px) {
             .Form {
                 width: 320px;
             }
