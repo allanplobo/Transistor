@@ -99,8 +99,8 @@
 /* PENAS DIREITAS */
 
 .PrimeiraPenaDireita {
-    width: 105px;
-    height: 105px;
+    width: 109px;
+    height: 102px;
     position: absolute;
     top: 0;
     left: 0;
@@ -112,15 +112,15 @@
 }
 
 .SegundaPenaDireita {
-    width: 75px;
-    height: 75px;
+    width: 82px;
+    height: 84px;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     margin: auto;
-    margin-right: 5px;
+    margin-right: -2px;
     margin-top: 270px;
 }
 

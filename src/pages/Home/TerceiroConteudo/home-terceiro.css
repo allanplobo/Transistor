@@ -49,9 +49,10 @@
         
         .FormCampoMsg {
             width: 350px;
-            height: 150px;
+            padding-bottom: 100px;
             margin-right: 20px;
             margin-top: 25px;
+            vertical-align: top;
         }
         
         .FormEnviar {
@@ -70,27 +71,9 @@
             transition: 0.5s;
         }
         
-        .FormEnviar:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.041);
-            transition: all .0.2s;
-        }
-        
-        .FormEnviar:before {
-            background-color: #2a75cf;
-        }
-        
-        .FormEnviar::after {
-            content: "";
-            display: inline-block;
-            height: 100%;
-            width: 100%;
-            border-radius: 100px;
-            position: absolute;
-            top: 0;
-            left: 0;
-            z-index: -1;
-            transition: all .0.2s;
+        .FormEnviar:disabled {
+            background-color: #535353fd;
+            cursor: default;
         }
         
         @media only screen and (max-width: 500px) {
@@ -102,6 +85,7 @@
             }
             .DivPrimeirosInputs {
                 margin-left: 10px;
+                width: 200px;
             }
             .FormCampoMsg {
                 margin-left: 20px;
