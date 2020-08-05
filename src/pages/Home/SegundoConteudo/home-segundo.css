@@ -2,7 +2,7 @@
         background-color: #363636;
         width: 100%;
         height: 700px;
-        padding-top: 120px;
+        padding-top: 110px;
     }
     
     .DivCardCentral {
@@ -178,7 +178,7 @@
             width: 35%;
         }
     }
-    /* SMARTPHONE */
+    /* SMARTPHONE FULL HD - Testado em iPhone 6/7/8 Plus */
     
     @media only screen and (max-width: 600px) {
         .slides {
@@ -214,5 +214,120 @@
             position: relative;
             margin: auto;
             margin-left: 0px;
+        }
+    }
+    /* SMARTPHONE FULL HD - Testado em iPhone 6/7/8 Plus */
+    
+    @media only screen and (max-width: 736px) and (max-height: 414px) {
+        .slides {
+            position: relative;
+            width: 50%;
+            margin-left: 160px;
+        }
+        .CardImage {
+            margin-bottom: -5px;
+            margin-right: -10px;
+            width: 250px;
+            height: 320px;
+        }
+        .DivCardCentral {
+            width: 240px;
+            height: 380px;
+            margin-left: 75px;
+            margin-right: 70px;
+            margin-top: 120px;
+        }
+        .Cards {
+            margin-top: -60px;
+            width: 220px;
+            height: 260px;
+        }
+        .LeftArrow {
+            left: 0%;
+        }
+        .RightArrow {
+            right: 0%;
+        }
+        .slides {
+            position: relative;
+            margin: auto;
+        }
+    }
+    /* SMARTPHONE 340 retrato*/
+    
+    @media only screen and (max-width: 407px) {
+        .slides {
+            position: relative;
+            width: 100%;
+            margin-left: 110px;
+        }
+        .CardImage {
+            margin-bottom: -5px;
+            margin-right: -0px;
+            width: 200px;
+            height: 300px;
+        }
+        .DivCardCentral {
+            width: 220px;
+            height: 360px;
+            margin-left: 50px;
+            margin-right: 70px;
+            margin-top: 120px;
+        }
+        .Cards {
+            margin-top: -60px;
+            width: 200px;
+            height: 240px;
+        }
+        .LeftArrow {
+            left: 5%;
+        }
+        .RightArrow {
+            right: 10%;
+        }
+        .slides {
+            position: relative;
+            margin: auto;
+            margin-left: 0px;
+        }
+        .LeftArrow {
+            font-size: 48px;
+        }
+        .RightArrow {
+            font-size: 48px;
+            right: 7%;
+        }
+    }
+    /* SMARTPHONE 320 paisagem */
+    
+    @media only screen and (max-width: 640px) and (max-height: 320px) {
+        .CardImage {
+            margin-bottom: -5px;
+            margin-right: -22px;
+            width: 250px;
+            height: 320px;
+        }
+        .DivCardCentral {
+            width: 240px;
+            height: 380px;
+            margin-left: 75px;
+            margin-right: 70px;
+            margin-top: 120px;
+        }
+        .Cards {
+            margin-top: -60px;
+            width: 220px;
+            height: 260px;
+        }
+        .LeftArrow {
+            left: -13%;
+        }
+        .RightArrow {
+            right: -8%;
+        }
+        .slides {
+            position: relative;
+            margin: auto;
+            width: 60%;
         }
     }

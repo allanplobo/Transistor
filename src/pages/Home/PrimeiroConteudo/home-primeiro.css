@@ -175,6 +175,9 @@
     margin-right: -13px;
 }
 
+
+/* SMARTPHONE iphone 6/8/8 plus */
+
 @media only screen and (max-width: 500px) {
     .MouseTracinho {
         display: none;
@@ -200,6 +203,9 @@
         margin: auto;
         margin-top: 28px;
     }
+    .TxtSuperior {
+        margin-right: 180px;
+    }
     /* PENAS ESQUERDAS */
     .PrimeiraPenaEsquerda {
         width: 85px;
@@ -223,7 +229,60 @@
     .SegundaPenaDireita {
         width: 77px;
         height: 79px;
-        margin-right: -px;
         margin-top: 270px;
+        margin-right: -5px;
+    }
+}
+
+
+/* SMARTPHONE 320 */
+
+@media only screen and (max-width: 407px) {
+    .RetanguloDegrade {
+        width: 300px;
+        height: 559px;
+    }
+    .Card {
+        width: 260px;
+        height: 371px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        margin-top: 28px;
+    }
+    .TxtSuperior {
+        margin-right: 150px;
+    }
+    .TxtInferior {
+        margin-bottom: 80px;
+        color: white;
+    }
+    /* PENAS ESQUERDAS */
+    .PrimeiraPenaEsquerda {
+        width: 65px;
+        height: 65px;
+        margin-right: 250px;
+        margin-top: 200px;
+    }
+    .SegundaPenaEsquerda {
+        width: 45px;
+        height: 45px;
+        margin-right: 240px;
+        margin-top: 260px;
+    }
+    /* PENAS DIREITAS */
+    .PrimeiraPenaDireita {
+        width: 84px;
+        height: 77px;
+        margin-top: 158px;
+        margin-left: 200px;
+    }
+    .SegundaPenaDireita {
+        width: 57px;
+        height: 59px;
+        margin-top: 240px;
     }
 }

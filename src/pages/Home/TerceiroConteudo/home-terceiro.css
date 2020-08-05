@@ -75,6 +75,7 @@
             background-color: #535353fd;
             cursor: default;
         }
+        /* TABLET */
         
         @media only screen and (max-width: 800px) {
             .Form {
@@ -105,6 +106,7 @@
                 margin-top: 10px;
             }
         }
+        /* SMARTPHONE iphone 6/8/8 plus*/
         
         @media only screen and (max-width: 600px) {
             .Form {
@@ -132,6 +134,23 @@
             }
             .FormEnviar {
                 margin-left: 75px;
+                margin-top: 10px;
+            }
+        }
+        /* SMARTPHONE 320 */
+        
+        @media only screen and (max-width: 407px) {
+            .Form {
+                width: 290px;
+            }
+            .FormCampoMsg {
+                text-align: center;
+                margin-left: 17px;
+                margin-top: 0;
+                width: 240px;
+            }
+            .FormEnviar {
+                margin-left: 60px;
                 margin-top: 10px;
             }
         }
