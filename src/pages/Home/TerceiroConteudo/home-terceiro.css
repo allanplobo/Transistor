@@ -78,20 +78,30 @@
         
         @media only screen and (max-width: 500px) {
             .Form {
-                width: 380px;
+                width: 320px;
             }
             .FormSegundoTxt {
-                width: 300px;
+                width: 250px;
             }
             .DivPrimeirosInputs {
-                margin-left: 10px;
+                margin: auto;
+                margin-top: 20px;
                 width: 200px;
             }
+            .FormCampo {
+                text-align: center;
+                margin-left: -15px;
+                margin-bottom: 20px;
+                width: 220px;
+            }
             .FormCampoMsg {
-                margin-left: 20px;
-                width: 300px;
+                text-align: center;
+                margin-left: 17px;
+                margin-top: 0;
+                width: 280px;
             }
             .FormEnviar {
-                margin-left: 100px;
+                margin-left: 75px;
+                margin-top: 10px;
             }
         }

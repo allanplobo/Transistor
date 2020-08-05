@@ -1,0 +1,51 @@
+.ButtonBacktoTop {
+    display: none;
+    cursor: pointer;
+    outline: none;
+    z-index: 2;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 50px;
+    font-size: 42px;
+    font-weight: lighter;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    -moz-transform: rotate(-90.0deg);
+    /* Opera 10.5 */
+    -o-transform: rotate(-90.0deg);
+    /* Saf3.1+, Chrome */
+    -webkit-transform: rotate(-90.0deg);
+    /* IE6,IE7 */
+    filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=0.083);
+    /* IE8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)";
+    /* Standard */
+    transform: rotate(-270.0deg);
+    animation: surgirButton 2s;
+    transition: 1s;
+}
+
+@keyframes surgirButton {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .ButtonBacktoTop {
+        width: 60px;
+        height: 60px;
+        font-size: 35px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+}

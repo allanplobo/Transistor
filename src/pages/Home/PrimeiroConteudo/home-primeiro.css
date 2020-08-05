@@ -185,4 +185,45 @@
     .MouseScroll {
         display: none;
     }
+    .RetanguloDegrade {
+        width: 345px;
+        height: 559px;
+    }
+    .Card {
+        width: 305px;
+        height: 416px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        margin-top: 28px;
+    }
+    /* PENAS ESQUERDAS */
+    .PrimeiraPenaEsquerda {
+        width: 85px;
+        height: 85px;
+        margin-right: 280px;
+        margin-top: 200px;
+    }
+    .SegundaPenaEsquerda {
+        width: 65px;
+        height: 65px;
+        margin-right: 270px;
+        margin-top: 275px;
+    }
+    /* PENAS DIREITAS */
+    .PrimeiraPenaDireita {
+        width: 104px;
+        height: 97px;
+        margin-top: 165px;
+        margin-left: 232px;
+    }
+    .SegundaPenaDireita {
+        width: 77px;
+        height: 79px;
+        margin-right: -px;
+        margin-top: 270px;
+    }
 }

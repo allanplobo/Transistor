@@ -1,81 +1,91 @@
-.SegundaDivPrincipal {
-    background-color: #363636;
-    width: 100%;
-    height: 800px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.DivCards {
-    position: relative;
-    background-color: white;
-    width: 240px;
-    height: 420px;
-    margin-top: 100px;
-    border-radius: 30px;
-}
-
-.DivCardCentral {
-    position: relative;
-    background-color: white;
-    width: 240px;
-    height: 420px;
-    margin-left: 80px;
-    margin-right: 80px;
-    margin-top: 100px;
-    border-radius: 30px;
-}
-
-.Cards {
-    margin: auto;
-    margin-top: -55px;
-    border: solid 2px white;
-    border-radius: 50px;
-    background-color: #363636;
-    width: 215px;
-    height: 260px;
-}
-
-.CardImage {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    margin-bottom: 206px;
-    width: 230px;
-    height: 310px;
-}
-
-.CardTxt {
-    width: 200px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12.5px;
-    line-height: 14px;
-    margin: auto;
-    margin-top: 20px;
-}
-
-.LeftArrowCards {
-    cursor: pointer;
-    color: white;
-    font-size: 65px;
-    font-family: 'Courier New', Courier, monospace;
-    margin-right: 80px;
-}
-
-.RightArrowCards {
-    cursor: pointer;
-    color: white;
-    font-size: 65px;
-    font-family: 'Courier New', Courier, monospace;
-    margin-left: 80px;
-}
-
-@media only screen and (max-width: 500px) {
-    body {
-        background-color: lightblue;
+    .SegundaDivPrincipal {
+        background-color: #363636;
+        width: 100%;
+        height: 800px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
-}
+    
+    .DivCards {
+        position: relative;
+        background-color: white;
+        width: 240px;
+        height: 420px;
+        margin-top: 100px;
+        border-radius: 30px;
+    }
+    
+    .DivCardCentral {
+        position: relative;
+        background-color: white;
+        width: 240px;
+        height: 420px;
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-top: 100px;
+        border-radius: 30px;
+    }
+    
+    .Cards {
+        margin: auto;
+        margin-top: -55px;
+        border: solid 2px white;
+        border-radius: 50px;
+        background-color: #363636;
+        width: 215px;
+        height: 260px;
+    }
+    
+    .CardImage {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        margin-bottom: 206px;
+        width: 230px;
+        height: 310px;
+    }
+    
+    .CardTxt {
+        width: 200px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12.5px;
+        line-height: 14px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+    .LeftArrowCards {
+        cursor: pointer;
+        color: white;
+        font-size: 65px;
+        font-family: 'Courier New', Courier, monospace;
+        margin-right: 80px;
+    }
+    
+    .RightArrowCards {
+        cursor: pointer;
+        color: white;
+        font-size: 65px;
+        font-family: 'Courier New', Courier, monospace;
+        margin-left: 80px;
+    }
+    
+    @media only screen and (max-width: 800px) {
+        .DivCards {
+            display: none;
+        }
+        .DivCardCentral {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .LeftArrowCards {
+            margin: 0;
+        }
+        .RightArrowCards {
+            margin: 0;
+        }
+    }
