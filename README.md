@@ -1,4 +1,4 @@
-## TRANSISTOR - THE GAME
+# TRANSISTOR - THE GAME
 
 landing page developed for a test.
 
